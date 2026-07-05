@@ -28,7 +28,6 @@ const loadEnvVariables = (): EnvConfig => {
     "JWT_REFRESH_EXPIRE_IN",
     "JWT_REFRESH_SECRET",
     "EXPRESS_SESSION_SECRET",
-    "FRONTEND_URL",
   ];
 
   requiredEnvVariables.forEach((key) => {
@@ -48,7 +47,6 @@ const loadEnvVariables = (): EnvConfig => {
     SUPER_ADMIN_PASSWORD: process.env.SUPER_ADMIN_PASSWORD,
     JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET,
     JWT_REFRESH_EXPIRE_IN: process.env.JWT_REFRESH_EXPIRE_IN,
-    FRONTEND_URL: process.env.FRONTEND_URL,
     EXPRESS_SESSION_SECRET: process.env.EXPRESS_SESSION_SECRET,
   };
 };
