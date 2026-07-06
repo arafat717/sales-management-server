@@ -1,4 +1,8 @@
 /* eslint-disable no-console */
+
+import dns from "dns";
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
+
 import { Server } from "http";
 import mongoose from "mongoose";
 import app from "./app";

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import multer from "multer";
+import multer from 'multer';
 import path from "path";
 import { ProductController } from "./product.controller";
 import { validateRequest } from "../../middlewares/validationMiddleware";
